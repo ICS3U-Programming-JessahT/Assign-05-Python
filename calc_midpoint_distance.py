@@ -41,11 +41,7 @@ def main():
             user_x_two = float(user_two_x)
             user_y_two = float(user_two_y)
         except (Exception):
-            print(
-                "Invalid, no strings allowed".format(
-                    user_one_x, user_one_y, user_two_x, user_two_y
-                )
-            )
+            print("Invalid, no strings allowed")
         else:
             # decision, if user wants distance or not
             decision = input("Do you also want the distance? (y,n): ")
